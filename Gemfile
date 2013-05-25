@@ -4,3 +4,6 @@ source 'http://rubygems.org'
 
 gem "middleman", "~>3.0.13"
 gem "middleman-livereload"
+
+# Deploy to Github, S3, etc.
+# gem "middleman-deploy", "~> 0.0.12"

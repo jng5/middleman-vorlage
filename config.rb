@@ -74,3 +74,27 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+
+
+# -- Deploy to GitHub, pushes to gh-pages
+# activate :deploy do |deploy|
+#   deploy.method = :git
+# end
+
+# -- Deploy to FTP
+# activate :deploy do |deploy|
+#   deploy.method = :ftp
+#   deploy.host = "ftp.example.com"
+#   deploy.user = "tvaughan"
+#   deploy.password = "secret"
+#   deploy.path = "/srv/www/site"
+# end
+
+# -- Deploy via rsync
+# activate :deploy do |deploy|
+#   deploy.method = :rsync
+#   deploy.user = "tvaughan"
+#   deploy.host = "www.example.com"
+#   deploy.path = "/srv/www/site"
+# end
