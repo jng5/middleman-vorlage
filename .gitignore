@@ -8,8 +8,6 @@
 /build
 
 # Ignore Sass
-# Ignore generated styles.css
-source/stylesheets/styles.css
 *.sass-cache
 
 *.gem
