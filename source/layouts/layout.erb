@@ -14,14 +14,14 @@
 
   <body>
     <div class="site-content-wrapper <%= page_classes %>">
-      <%= partial '_partials/header' %>
+      <%= partial 'layouts/header' %>
 
       <%= yield %>
 
       <div class="site-push-footer"></div>
     </div><!--/.site-content-wrapper-->
 
-    <%= partial '_partials/footer' %>
+    <%= partial 'layouts/footer' %>
     <%= javascript_include_tag  "all" %>
   </body>
 </html>

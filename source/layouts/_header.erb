@@ -6,7 +6,13 @@
         Logo
       </div>
       <div class="header-nav grid-span8">
-        <%= partial '_partials/navigation' %>
+        <ul class="nav-list">
+          <% data.navigation.items.each do |nav| %>
+            <li class="nav-item">
+              <%= link_to nav.name, nav.url, class: 'header-nav-link' %>
+            </li>
+          <% end %>
+          </ul>
       </div>
 
     </div>
